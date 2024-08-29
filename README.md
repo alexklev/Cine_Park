@@ -26,7 +26,7 @@
 
 --> Creez la base de donnees mysql
 
---> Importez le fichier sql dana la base de donnees
+--> Importez le fichier sql dans la base de donnees ( cine_park.sql ) qui se trouve a la racine du projet
 
 --> Démarrez le serveur de développement : php artisan serve
 
