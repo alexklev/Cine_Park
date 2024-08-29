@@ -8,10 +8,10 @@
         <div class="fp__breadcrumb_overlay">
             <div class="container">
                 <div class="fp__breadcrumb_text">
-                    <h1>payment</h1>
+                    <h1>paiement</h1>
                     <ul>
-                        <li><a href="{{ url('/') }}">home</a></li>
-                        <li><a href="javascript:;">payment</a></li>
+                        <li><a href="{{ url('/') }}">Accueil</a></li>
+                        <li><a href="javascript:;">paiement</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,7 +27,7 @@
     ==============================-->
     <section class="fp__payment_page mt_100 xs_mt_70 mb_100 xs_mb_70">
         <div class="container">
-            <h2>Choose Your Payment Gateway</h2>
+            <h2>Choisissez votre mode de paiement</h2>
             <div class="row">
                 <div class="col-lg-8">
                     <div class="fp__payment_area">
