@@ -141,9 +141,9 @@
                                                     id="home">
                                                 <label class="form-check-label" for="home">
                                                     @if ($address->type === 'home')
-                                                        <span class="icon"><i class="fas fa-home"></i> home</span>
+                                                        <span class="icon"><i class="fas fa-home"></i> Homme</span>
                                                     @else
-                                                        <span class="icon"><i class="fas fa-home"></i> office</span>
+                                                        <span class="icon"><i class="fas fa-home"></i> Homme</span>
                                                     @endif
                                                     <span class="address">{{ $address->address }},
                                                         {{ $address->deliveryArea?->area_name }}</span>
@@ -170,7 +170,7 @@
                         @endif
                         <p class="total"><span>total:</span> <span id="grand_total">{{ currencyPosition(grandCartTotal()) }}</span></p>
 
-                        <a class="common_btn" id="procced_pmt_button" href=" #">Proceed to Payment</a>
+                        <a class="common_btn" id="procced_pmt_button" href=" #">Proceder au paiement</a>
                     </div>
                 </div>
             </div>
