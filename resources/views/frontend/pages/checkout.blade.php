@@ -159,13 +159,13 @@
 
                 <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s">
                     <div id="sticky_sidebar" class="fp__cart_list_footer_button">
-                        <h6>total cart</h6>
-                        <p>subtotal: <span>{{ currencyPosition(cartTotal()) }}</span></p>
-                        <p>delivery: <span id="delivery_fee">$00.00</span></p>
+                        <h6>total films</h6>
+                        <p>total: <span>{{ currencyPosition(cartTotal()) }}</span></p>
+                        <p>Autres frais: <span id="delivery_fee">$00.00</span></p>
                         @if (session()->has('coupon'))
-                        <p>discount: <span>{{ currencyPosition(session()->get('coupon')['discount']) }}</span></p>
+                        <p>Reduction: <span>{{ currencyPosition(session()->get('coupon')['discount']) }}</span></p>
                         @else
-                        <p>discount: <span>{{ currencyPosition(0) }}</span></p>
+                        <p>Reduction: <span>{{ currencyPosition(0) }}</span></p>
 
                         @endif
                         <p class="total"><span>total:</span> <span id="grand_total">{{ currencyPosition(grandCartTotal()) }}</span></p>
