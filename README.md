@@ -2,7 +2,7 @@
 
 <h2>Technologies utilisées</h2>
 
---> <b>Laravel<b/> : Framework PHP pour le développement back-end
+--> <b>Laravel<b/> : Framework PHP pour le développement back-end ( Php version 8.2 )
 
 --> HTML, CSS, JavaScript : Développement front-end pour l'interface utilisateur
 
